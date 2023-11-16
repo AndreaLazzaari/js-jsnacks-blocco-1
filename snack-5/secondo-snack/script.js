@@ -2,25 +2,28 @@
 // chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 const invitati = [
-    gina,
-    paola,
-    carlo,
-    rick,
-    carola
-]
+    'gina',
+    'paola',
+    'carlo',
+    'rick',
+    'carola'
+];
+
 
 const nomeUtente = prompt('Inserisci il tuo nome');
 
 let presente = false;
 
-for (let i = 0; i < invitati.length; i++){
-    if (nomeUtente === presente){
+for (let index = 0; index < invitati.length; index++) {
+    const guest = invitati[index];
+    
+    if (guest === nomeUtente){
         presente = true;
     } 
 }
 
-if (presente === true){
-    prompt('Fai parte della lista, puoi entrare')
-} else {
-    prompt('Non puoi entrare')
-}
+console.log(presente)
+
+
+  
+
