@@ -1,11 +1,38 @@
-// Ciclare per i primi 100 numeri e inserire in un array esclusivamente i numeri divisibili per 7 o per 8.
+// Crea un array vuoto. Chiedi per 6 volte all'utente di inserire un numero, se è dispari inseriscilo nell'array.
 
-const newArray = [];
+const listaNumeriDispari = [];
 
-for (let i = 1; i <= 100; i++){
-    if (i % 7 ===0 || i % 8 === 0){
-    newArray.push(i)
-    }
+let numeroUtente
+
+
+for (let i = 0; i < 6; i++ ){
+     numeroUtente = parseInt(prompt('inserisci un numero'));
+     console.log(numeroUtente)
+
+if (numeroUtente % 2 == 1){
+       listaNumeriDispari.push[numeroUtente]
+    } 
+    
 }
 
-console.log(newArray)
+console.log(listaNumeriDispari.length)
+
+
+
+
+
+
+// var numero;
+// var contap = 0, pari
+// contad = 0; dispari
+
+// for (var i = 0; i < 20; i++){
+//   numero = parseInt(prompt('Inserisci un numero'));
+//   if (numero % 2 == 0) {
+//     contap++;
+//   } else {
+//     contad++;
+//   }
+// }
+
+// alert(contap, contad);

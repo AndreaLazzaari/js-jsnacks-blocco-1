@@ -1,11 +1,6 @@
-// Ciclare per i primi 100 numeri e inserire in un array esclusivamente i numeri divisibili per 7 o per 8.
+// Chiedi un numero di 7 cifre all'utente e calcola la somma di tutte le cifre che compongono il numero.
 
-const newArray = [];
+let numeroUtente = parseInt(prompt('inserisci un numero'));
+numeroUtente.toPrecision(7);
 
-for (let i = 1; i <= 100; i++){
-    if (i % 7 ===0 || i % 8 === 0){
-    newArray.push(i)
-    }
-}
-
-console.log(newArray)
+console.log(numeroUtente)
