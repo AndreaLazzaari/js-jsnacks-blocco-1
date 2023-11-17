@@ -15,7 +15,7 @@ if (numeroUtente % 2 == 1){
     
 }
 
-console.log(listaNumeriDispari.length)
+console.log(listaNumeriDispari)
 
 
 
